@@ -1,29 +1,39 @@
-# VAULT - C++ Password Manager
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge" alt="C++">
+  <img src="https://img.shields.io/badge/Security-AES--256--CBC-green?style=for-the-badge" alt="Security">
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey?style=for-the-badge" alt="Platform">
+</p>
 
-A modern, secure, and user-friendly command-line password manager built in C++ with AES-256-CBC encryption. VAULT features a polished terminal UI with full color support, ASCII art, typewriter animations, and multi-user support.
+<pre align="center">
+██╗   ██╗ █████╗ ██╗   ██╗██╗  ████████╗
+██║   ██║██╔══██╗██║   ██║██║  ╚══██╔══╝
+██║   ██║███████║██║   ██║██║     ██║   
+╚██╗ ██╔╝██╔══██║██║   ██║██║     ██║   
+ ╚████╔╝ ██║  ██║╚██████╔╝███████╗██║   
+  ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝   
+</pre>
+
+<h2 align="center">🔐 A Modern C++ Command-Line Password Manager</h2>
+
+<p align="center"><b>AES-256-CBC Encryption • Multi-User Support • Polished Terminal UI</b></p>
 
 ---
 
-## Features
+<h2>🌟 Features</h2>
 
-- **Military-Grade Encryption:** Uses AES-256-CBC via OpenSSL to secure all vault data.
-- **Multi-User Support:** Create multiple independent vault files, each protected by a unique User ID and Master Password.
-- **Interactive Terminal UI:** A beautiful, colorized interface with animated banners, box-drawn menus, and progress bars.
-- **Key Derivation:** Uses PBKDF2-HMAC-SHA256 with 10,000 iterations to derive encryption keys from your credentials.
-- **Full CRUD Operations:** Add, List, Search, Update, and Delete stored entries (Services, Usernames, Passwords, Notes).
-- **Password Generator:** Generates strong, random passwords of customizable length (8-64 characters).
-- **Session Management:** Save & Logout functionality allows users to switch between accounts without restarting the program.
-- **Robust Input Handling:** Sanitized inputs and buffered output to prevent Windows-specific CRLF input bugs.
+- <b>Military-Grade Encryption:</b> Uses AES-256-CBC via OpenSSL to secure all vault data.
+- <b>Multi-User Support:</b> Create multiple independent vault files, each protected by a unique User ID and Master Password.
+- <b>Interactive Terminal UI:</b> A beautiful, colorized interface with animated banners, box-drawn menus, and progress bars.
+- <b>Key Derivation:</b> Uses PBKDF2-HMAC-SHA256 with 10,000 iterations to derive encryption keys.
+- <b>Full CRUD Operations:</b> Add, List, Search, Update, and Delete stored entries.
+- <b>Password Generator:</b> Generates strong, random passwords of customizable length (8-64 characters).
+- <b>Session Management:</b> Save & Logout functionality allows switching between accounts without restarting.
 
 ---
 
-## Prerequisites
+<h2>🛠️ Prerequisites</h2>
 
-### 1. MSYS2 / MinGW
-
-This project uses the MSYS2 environment with the UCRT64 toolchain.
-
-- Download and install [MSYS2](https://www.msys2.org/).
-- Update packages:
+<h3>1. MSYS2 / MinGW</h3>
+Install [MSYS2](https://www.msys2.org/), then update packages:
 ```bash
 pacman -Syu
