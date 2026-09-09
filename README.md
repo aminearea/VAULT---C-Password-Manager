@@ -35,6 +35,7 @@
 <h3>1. MSYS2 / MinGW</h3>
 Install [MSYS2](https://www.msys2.org/), then update packages:
 
+```bash
 
 pacman -Syu
 <h3>2. OpenSSL Library</h3> Install the development package inside MSYS2:
