@@ -1,4 +1,13 @@
 <div align="center">
+  <pre align="center">
+██╗   ██╗ █████╗ ██╗   ██╗██╗  ████████╗
+██║   ██║██╔══██╗██║   ██║██║  ╚══██╔══╝
+██║   ██║███████║██║   ██║██║     ██║   
+╚██╗ ██╔╝██╔══██║██║   ██║██║     ██║   
+ ╚████╔╝ ██║  ██║╚██████╔╝███████╗██║   
+  ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝   
+  </pre>
+
   <img src="https://img.shields.io/badge/Language-C%2B%2B-blue?style=for-the-badge" alt="C++">
   <img src="https://img.shields.io/badge/Security-AES--256--CBC-green?style=for-the-badge" alt="Security">
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey?style=for-the-badge" alt="Platform">
@@ -10,6 +19,7 @@
 
 <hr>
 
+<!-- The rest of your README content stays exactly the same -->
 <h2>Features</h2>
 <ul>
   <li><b>Military-Grade Encryption:</b> Uses AES-256-CBC via OpenSSL to secure all vault data.</li>
